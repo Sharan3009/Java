@@ -9,3 +9,8 @@ Collections.sort(list, (x,y)->{
 )
 ```
 The trick is use `Integer.compare`, `Long.compare` or `String.compare` to compare instead of using manual 1, -1, and 0.
+
+## Can we declare Array of ArrayList in java?
+Yes. But there will be a warning of unchecked conversion for below piece of code.
+`ArrayList<Integer>[] arr = new ArrayList[];`
+Therefore it is recommended to have ArrayList of ArrayList.
