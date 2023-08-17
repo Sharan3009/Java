@@ -8,4 +8,4 @@ Collections.sort(list, (x,y)->{
   }
 )
 ```
-The trick is use Integer.compare, Long.compare or String.compare to compare instead of using manual 1, -1, and 0.
+The trick is use `Integer.compare`, `Long.compare` or `String.compare` to compare instead of using manual 1, -1, and 0.
