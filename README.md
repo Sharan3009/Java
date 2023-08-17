@@ -14,6 +14,3 @@ The trick is use `Integer.compare`, `Long.compare` or `String.compare` to compar
 Yes. But there will be a warning of unchecked conversion for below piece of code.
 `ArrayList<Integer>[] arr = new ArrayList[];`
 Therefore it is recommended to have ArrayList of ArrayList.
-
-## Given a number of nodes `n`. How would you initialize a list representation of the graph.
-`List<List<Integer>> graph = new ArrayList<>(Collections.nCopies(n, new ArrayList<Integer>()))`
