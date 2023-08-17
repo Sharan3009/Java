@@ -2,9 +2,10 @@
 ```
 Collections.sort(list, (x,y)->{
     if(x.get(0) == y.get(0)){
-      return Integer.compareTo(x.get(1), y.get(1));
+      return Integer.compare(x.get(1), y.get(1));
     }
-    return Integer.compareTo(x.get(0), y.get(0));
+    return Integer.compare(x.get(0), y.get(0));
   }
 )
 ```
+The trick is use Integer.compare, Long.compare or String.compare to compare instead of using manual 1, -1, and 0.
